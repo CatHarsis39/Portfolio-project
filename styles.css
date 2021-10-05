@@ -18,7 +18,7 @@ h1 {
   font-size: 96px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 576px) {
   h1,
   email-link {
     font-size: 48px;
@@ -27,6 +27,16 @@ h1 {
 
   h2 {
     font-size: 36px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .primary-links {
+    display: block;
+    text-align: center;
   }
 }
 
